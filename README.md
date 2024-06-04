@@ -6,7 +6,7 @@ Bem-vindo ao Sysadmin Guide!
 Este projeto é um guia de estudo dedicado a profissionais que desejam aprofundar seus conhecimentos em administração de sistemas e Linux. O material aqui apresentado é um recurso em constante construção, abrangendo desde conceitos básicos até tópicos avançados.
 
 ## Importante
-Este guia não é um treinamento oficial e nem substitui um treinamento oficial. A ideia deste repositório é coletar informações e links relacionados aos conhecimentos necessários para sysadmin.
+**Este guia não é um treinamento oficial e nem substitui um treinamento oficial. A ideia deste repositório é coletar informações e links relacionados aos conhecimentos necessários para sysadmin.**
 
 ## Objetivo
 O objetivo deste guia é fornecer uma base sólida para administradores de sistemas, abordando tópicos essenciais para o gerenciamento eficaz de sistemas Linux. Este material é ideal tanto para iniciantes quanto para profissionais experientes que buscam aprimorar suas habilidades.
