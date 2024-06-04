@@ -42,34 +42,39 @@ Excelente artigo com passo a passo do processo de instalação do RHEL 9 - [How 
 
 ### Temas Incluídos:
 - **Acessar o Prompt de Comando e executar Comandos com Sintaxe Correta**
-  - Acessar um shell prompt e emitir comandos com sintaxe correta
-  - Usar redirecionamento de entrada e saída (>, >>, |, 2>, etc.)
-  - Usar grep e expressões regulares para analisar texto
-  - Acessar sistemas remotos usando SSH
-  - Fazer login e alternar usuários em alvos multiusuário
+  - Terminals, shells, consoles, e command lines - [Terminals, shells, consoles, and command lines](https://www.redhat.com/sysadmin/terminals-shells-consoles) 
+  - Acessar um shell prompt e emitir comandos com sintaxe correta - [How to access the Linux terminal](https://www.redhat.com/sysadmin/access-linux-terminal)
+  - Execução de comandos básicos no Linux - [Linux Commands Cheat Sheet](https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet-old)
+  - Usar redirecionamento de entrada e saída (>, >>, |, 2>, etc.) - [How to manipulate files with shell redirection and pipelines in Linux](https://www.redhat.com/sysadmin/linux-shell-redirection-pipelining)
+  - Usar grep analisar texto - [How to use grep](https://www.redhat.com/sysadmin/how-to-use-grep)
+  - Usar grep e expressões regulares para analisar texto - [Manipulating text at the command line with grep](https://www.redhat.com/sysadmin/manipulating-text-grep)
+  - Acessar sistemas remotos usando SSH - [How to access remote systems using SSH](https://www.redhat.com/sysadmin/access-remote-systems-ssh)
+  - Fazer login e alternar usuários em alvos multiusuário - [Linux superuser access, explained](https://www.redhat.com/sysadmin/linux-superuser-access)
+  - 10 comandos básicos do Linux - [10 basic Linux commands you need to know](https://www.redhat.com/sysadmin/basic-linux-commands)
+  - **Laboratório**: Uma laboratório prático que aborda uma série de comandos essenciais, desde a localização de arquivos até a verificação de recursos do sistema - [Helpful Linux Commands](https://developers.redhat.com/learn/lessons/linux-commands)
 
 - **Arquivar, Comprimir, Descompactar e Descomprimir Arquivos**
-  - Arquivar, comprimir, descompactar e descomprimir arquivos usando tar, star, gzip e bzip2
+  - Arquivar, comprimir, descompactar e descomprimir arquivos usando tar, star, gzip e bzip2 - [Taming the tar command: Tips for managing backups in Linux](https://www.redhat.com/sysadmin/taming-tar-command)
 
 - **Criar e Editar Arquivos de Texto**
-  - Criar e editar arquivos de texto
+  - Criar e editar arquivos de texto - [Linux basics: A beginner's guide to text editing with vim](https://www.redhat.com/sysadmin/beginners-guide-vim)
 
 - **Gerenciar Arquivos e Diretórios**
-  - Criar, deletar, copiar e mover arquivos e diretórios
-  - Criar links físicos e simbólicos
-  - Listar, definir e alterar permissões padrão ugo/rwx
+  - Criar, deletar, copiar e mover arquivos e diretórios  - [Linux essentials: How to create and delete files and directories](https://www.redhat.com/sysadmin/basic-linux-commands)
+  - Criar links físicos e simbólicos  - [Hard links and soft links in Linux explained](https://www.redhat.com/sysadmin/linking-linux-explained)
+  - Listar, definir e alterar permissões padrão ugo/rwx  - [How to manage Linux permissions for users, groups, and others](https://www.redhat.com/sysadmin/manage-permissions)
 
 - **Documentação do Sistema**
-  - Localizar, ler e usar documentação do sistema, incluindo man, info e arquivos em /usr/share/doc
+  - Localizar, ler e usar documentação do sistema, incluindo man, info e arquivos em /usr/share/doc  - [How to find out what a Linux command does](https://www.redhat.com/sysadmin/linux-command-documentation)
 
 - **Criar Scripts Shell Simples**
-  - Criar scripts shell simples
+  - Criar scripts shell simples  - []()
 
-- **Execução Condicional e Laços em Scripts**
-  - Executar código condicionalmente (uso de: if, test, [], etc.)
-  - Usar construções de laço (for, etc.) para processar entrada de linha de comando
-  - Processar entradas de script ($1, $2, etc.)
-  - Processar saída de comandos shell dentro de um script
+- **Execução Condicional e Laçosloop em ShellScripts**
+  - Executar código condicionalmente (uso de: if, test, [], etc.)  - []()
+  - Usar construções de laço (for, etc.) para processar entrada de linha de comando  - []()
+  - Processar entradas de script ($1, $2, etc.)  - []()
+  - Processar saída de comandos shell dentro de um script - []()
 
 - **Operar Sistemas em Execução**
   - Inicializar, reiniciar e desligar um sistema normalmente
@@ -84,28 +89,28 @@ Excelente artigo com passo a passo do processo de instalação do RHEL 9 - [How 
   - Transferir arquivos entre sistemas de forma segura
 
 - **Configurar Armazenamento Local**
-  - Listar, criar e deletar partições em discos MBR e GPT
-  - Criar e remover volumes físicos
-  - Atribuir volumes físicos a grupos de volumes
-  - Criar e deletar volumes lógicos
-  - Configurar sistemas para montar sistemas de arquivos na inicialização usando ID universalmente único (UUID) ou rótulo
-  - Adicionar novas partições e volumes lógicos, e swap a um sistema sem destruição
+  - Listar, criar e deletar partições em discos MBR e GPT - []()
+  - Criar e remover volumes físicos - []()
+  - Atribuir volumes físicos a grupos de volumes - []()
+  - Criar e deletar volumes lógicos - []()
+  - Configurar sistemas para montar sistemas de arquivos na inicialização usando ID universalmente único (UUID) ou rótulo - []()
+  - Adicionar novas partições e volumes lógicos, e swap a um sistema sem destruição - []()
 
 - **Criar e Configurar Sistemas de Arquivos**
-  - Criar, montar, desmontar e usar sistemas de arquivos vfat, ext4 e xfs
-  - Montar e desmontar sistemas de arquivos de rede usando NFS
-  - Configurar autofs
-  - Estender volumes lógicos existentes
-  - Criar e configurar diretórios set-GID para colaboração
-  - Diagnosticar e corrigir problemas de permissões de arquivos
+  - Criar, montar, desmontar e usar sistemas de arquivos vfat, ext4 e xfs - []()
+  - Montar e desmontar sistemas de arquivos de rede usando NFS - []()
+  - Configurar autofs - []()
+  - Estender volumes lógicos existentes - []()
+  - Criar e configurar diretórios set-GID para colaboração - []()
+  - Diagnosticar e corrigir problemas de permissões de arquivos - []()
 
 - **Implantar, Configurar e Manter Sistemas**
-  - Agendar tarefas usando at e cron
-  - Iniciar e parar serviços e configurar serviços para iniciar automaticamente na inicialização
-  - Configurar sistemas para inicializar em um alvo específico automaticamente
-  - Configurar clientes de serviço de tempo
-  - Instalar e atualizar pacotes de software da Red Hat Network, de um repositório remoto, ou do sistema de arquivos local
-  - Modificar o bootloader do sistema
+  - Agendar tarefas usando at e cron - []()
+  - Iniciar e parar serviços e configurar serviços para iniciar automaticamente na inicialização - []()
+  - Configurar sistemas para inicializar em um alvo específico automaticamente - []()
+  - Configurar clientes de serviço de tempo - []()
+  - Instalar e atualizar pacotes de software da Red Hat Network, de um repositório remoto, ou do sistema de arquivos local - []()
+  - Modificar o bootloader do sistema - []()  
 
 - **Gerenciar Rede Básica**
   - Configurar endereços IPv4 e IPv6
